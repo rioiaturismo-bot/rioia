@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>Rio IA by SOLVAM</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -37,6 +40,11 @@
     overflow: hidden;
     border-radius: 18px;
     background: var(--navy-deep);
+  }
+  #app { height: 100dvh; }
+  @media (max-width: 520px) {
+    body { padding-left: 0; padding-right: 0; }
+    #app { max-width: none; border-radius: 0; }
   }
   .layer { position: absolute; inset: 0; }
 
